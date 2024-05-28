@@ -27,7 +27,19 @@
                     <a href="~/Home/Index" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="~/Home/Privacy" class="nav-link">Privacy</a>
+                    <a href="~/Identity/Account/Manage" class="nav-link">User Profile</a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="~/MonitorVitals/Index" class="nav-link">Monitor Vitals</a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="~/PreeclampsiaWarning/Index" class="nav-link">Preeclampsia Warning</a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="~/Notes/Index" class="nav-link">Notes</a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="~/Alerts/Index" class="nav-link">Alerts</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
@@ -55,9 +67,33 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="~/Home/Privacy" class="nav-link">
-                                <i class="nav-icon fas fa-user-secret"></i>
-                                <p>Privacy</p>
+                            <a href="~/Identity/Account/Manage" class="nav-link">
+                                <i class="nav-icon fas fa-user"></i>
+                                <p>User Profile</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="~/MonitorVitals/Index" class="nav-link">
+                                <i class="nav-icon fas fa-laptop-medical"></i>
+                                <p>Monitor Vitals</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="~/PreeclampsiaWarning/Index" class="nav-link">
+                                <i class="nav-icon fas fa-exclamation"></i>
+                                <p>Preeclampsia Warning</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="~/Notes/Index" class="nav-link">
+                                <i class="nav-icon fas fa-notes-medical"></i>
+                                <p>Notes</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="~/Alerts/Index" class="nav-link">
+                                <i class="nav-icon fas fa-bell"></i>
+                                <p>Alerts</p>
                             </a>
                         </li>
                         <!-- Add more menu items here -->
@@ -71,7 +107,7 @@
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
             <!-- Main content -->
-            <section class="content">
+            <section class="content" style="margin-left: 10px;">
                 <div class="container-fluid">
                     @RenderBody()
                 </div>

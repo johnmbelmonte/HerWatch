@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs
+/WebApplication/HerWatch_WebApplication/.vs/HerWatch_WebApplication
+/WebApplication/HerWatch_WebApplication/bin/Debug/net6.0
