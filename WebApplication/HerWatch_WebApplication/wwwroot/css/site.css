@@ -1,4 +1,4 @@
-html {
+/*html {
   font-size: 14px;
 }
 
@@ -11,8 +11,24 @@ html {
 html {
   position: relative;
   min-height: 100%;
-}
+}*/
 
-body {
-  margin-bottom: 60px;
-}
+
+/* Navbar background color */
+/*.navbar {
+    background-color: lightblue !important;
+}*/
+
+/* Ensure other elements like the navbar text contrast well with the new colors */
+/*.navbar .nav-link {
+    color: #000000 !important;*/ /* Black text for visibility */
+/*}
+
+.navbar .navbar-brand {
+    color: #000000 !important;*/ /* Black text for visibility */
+/*}
+
+.footer {
+    background-color: lightblue;
+    color: #000000 !important;*/ /* Black text for visibility */
+/*}*/
